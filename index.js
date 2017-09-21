@@ -21,4 +21,5 @@ function keepGoing(array,changeValue,skipValue){
 
 function findBy(array, findFn){
   array.forEach(findFn);
+  return array;
 }
